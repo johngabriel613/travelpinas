@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelPinas</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            
+            <div class="header__wrapper__logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <nav class="header__wrapper__nav">
+                <ul class="header__wrapper__nav__list">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__wrapper__cta">
+                <a href="#">Book now</a>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home__wrapper">
+            <lottie-player id="scroll" src="https://assets2.lottiefiles.com/packages/lf20_klsab29v.json"  background="transparent"  speed="1"  style="width: 70px; height: 70px;"  loop  autoplay></lottie-player>
+            <video id="background" autoplay loop muted>
+                <source src="assets/main.mp4" type="video/mp4">
+            </video>
+
+            <div class="home__wrapper__content">
+                <div class="home__wrapper__content__text">
+                    <h1><span>Explore the</span><br>PEARL OF THE ORIENT SEAS</h1>
+                </div>
+                <form action="#" class="home__wrapper__content__searchbar">
+                    <input type="text" name="destination" placeholder="Search Destination">
+                    <button><svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path fill="currentColor" d="M464 428L339.92 303.9a160.48 160.48 0 0 0 30.72-94.58C370.64 120.37 298.27 48 209.32 48S48 120.37 48 209.32s72.37 161.32 161.32 161.32a160.48 160.48 0 0 0 94.58-30.72L428 464ZM209.32 319.69a110.38 110.38 0 1 1 110.37-110.37a110.5 110.5 0 0 1-110.37 110.37Z"/></svg></button>
+                </form>
+                <p><a href="#">Sign in</a> to book your destination.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

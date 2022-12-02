@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background: transparent linear-gradient(180deg, rgba(18, 18, 18, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: min(100%, 1200px);
+        margin: auto;
+        padding: 10px;
+
+        &__logo{
+            img{
+                width: 200px;
+            }
+        }
+
+        &__nav{
+
+
+            &__list{
+                display: flex;
+                gap: 2.5rem;
+
+                a{
+                    color: #fff;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        &__cta{
+            border: 2px solid #fff;
+            padding: 10px 15px;
+            border-radius: 50px;
+
+            a{
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+    }
+}
